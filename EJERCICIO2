@@ -1,0 +1,32 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
+ */
+
+package com.mycompany.ejercicio2pract;
+import java.util.Scanner;
+/**
+ *
+ * @author alumno
+ */
+public class Ejercicio2pract {
+
+    public static void main(String[] args) {
+        
+        //VARIABLE//
+         int num1 ;
+         System.out.println("primer numero");
+        Scanner scanner = new Scanner(System.in);
+        num1 = scanner.nextInt();
+        
+        //OPERACION CONDICIONAL//
+        
+        if (num1 <12 && num1>1)  {  System.out.println("pertenece");               }
+        else {      System.out.println(" no pertenece");                   }
+        
+        
+        
+        
+     
+    }
+}
