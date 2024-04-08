@@ -1,0 +1,39 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
+ */
+
+
+package com.mycompany.ejercico1pract;
+import java.util.Scanner;
+
+/**
+ *
+ * @author alumno
+ */
+public class Ejercico1pract {
+
+    public static void main(String[] args) {
+        int num1 ;
+        int num2 ;
+        double suma ;
+        
+        System.out.println("primer numero");
+        Scanner scanner = new Scanner(System.in);
+        num1 = scanner.nextInt();
+        System.out.println("segundo numero");
+        num2 = scanner.nextInt();
+        
+        //operacion//
+        suma = num1 + num2 ;
+        
+        
+         System.out.println("el resultado es " + suma);
+    
+        
+        
+        
+        
+        
+    }
+}
