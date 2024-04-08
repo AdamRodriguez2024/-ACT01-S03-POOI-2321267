@@ -1,0 +1,35 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
+ */
+
+package com.mycompany.ejercicio3pract;
+import java.util.Scanner;
+/**
+ *
+ * @author alumno
+ */
+public class Ejercicio3pract {
+
+    public static void main(String[] args) {
+        
+        // variABLE//
+        
+        int num1 ;
+        double residuo;
+         System.out.println("primer numero");
+        Scanner scanner = new Scanner(System.in);
+        num1 = scanner.nextInt();   
+        
+        //OPERACION//
+        residuo = num1%7;
+        System.out.println("residuo "   + residuo ); 
+        //CONDICIONAL//
+        
+        if (num1 > 40 && residuo<=0  ) { System.out.println(" es divisible");       }
+        
+        
+        
+       
+    }
+}
